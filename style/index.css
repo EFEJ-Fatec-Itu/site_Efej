@@ -1,3 +1,97 @@
+body {
+  width: 100%;
+  margin: 0;
+  height: 120vh;
+  font-weight: 100;
+  background: linear-gradient(rgba(149, 163, 199, 0.357), rgba(8, 57, 131, 0.624)), url("../img/fundoazul.jpg");
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  -webkit-animation: fadeIn 1 1s ease-out;
+  -moz-animation: fadeIn 1 1s ease-out;
+  -o-animation: fadeIn 1 1s ease-out;
+  animation: fadeIn 1 1s ease-out;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+/*Menu principal*/
+
+#header1 {
+  background-color: rgba(87, 139, 213, 0.939);
+  color: #000000;
+  margin: 0px;
+  opacity: .9;
+  vertical-align: middle;
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+  transition: .3s;
+}
+
+#logo {
+  height: 70px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: .3s;
+  vertical-align: middle;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#principal {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: .3s;
+  vertical-align: middle;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#topmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(2, 14, 39);
+  display: block;
+  width: 100%;
+  text-align: center;
+  transition: .3s;
+}
+
+li {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: .5s;
+}
+
+li a:hover {
+  border-radius: 5px;
+  border-bottom-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
