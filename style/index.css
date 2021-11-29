@@ -3,8 +3,8 @@ body {
   margin: 0;
   height: 120vh;
   font-weight: 100;
-  background: linear-gradient(rgba(149, 163, 199, 0.357), rgba(8, 57, 131, 0.624)), url("../img/fundoazul.jpg");
-  background-color: #ffffff;
+  /*background: linear-gradient(rgba(149, 163, 199, 0.357), rgba(8, 57, 131, 0.624)), url("../img/fundoazul.jpg");*/
+  background-color: #017bc2c6;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +20,7 @@ body {
 /*Menu principal*/
 
 #header1 {
-  background-color: rgba(87, 139, 213, 0.939);
+  background-color: #84CDF7;
   color: #000000;
   margin: 0px;
   opacity: .9;
@@ -57,7 +57,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(2, 14, 39);
+  background-color: rgba(2, 14, 39, 0);
   display: block;
   width: 100%;
   text-align: center;
@@ -67,6 +67,8 @@ body {
 li {
   display: inline-block;
   padding-left: 15px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 li a {
@@ -76,11 +78,37 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   transition: .5s;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
 }
 
-li a:hover {
-  border-radius: 5px;
-  border-bottom-color: yellow;
+li a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: #e2d517;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+li a:hover:before, li a:focus:before, li a:active:before {
+  left: 0;
+  right: 0;
+}
+
+#linha {
+  border-color: yellow;
+  margin-top: 0px;
 }
 
 
