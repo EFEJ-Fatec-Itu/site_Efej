@@ -1,3 +1,26 @@
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  background-color: #1f0446;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.preloader-js {
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#preload-gif {
+  margin: auto;
+}
+
+
 body {
   background-color: #707070;
 }
@@ -158,16 +181,16 @@ body {
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
   transition: .3s;
- }
- 
- .fab-icon {
-  margin-top: 16px;
- }
+}
 
- .floating:hover{
-   width: 65px;
-   height: 65px;
- }
+.fab-icon {
+  margin-top: 16px;
+}
+
+.floating:hover {
+  width: 65px;
+  height: 65px;
+}
 
 /*Fade in da página*/
 
