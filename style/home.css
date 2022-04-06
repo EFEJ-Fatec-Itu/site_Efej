@@ -67,6 +67,26 @@ body {
   color: #000000;
 }
 
+#zoom-pic {
+  width: 50%;
+}
+
+#contactUS {
+  width: 150px;
+  height: 40px;
+  border: none;
+  transition: .3s;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+#contactUS:hover {
+  width: 200px;
+  background-color: #25d366;
+  color: #ffffff;
+}
+
 /* Carousel da página*/
 
 .carousel {
@@ -121,6 +141,33 @@ body {
 .partner>img {
   width: 40%;
 }
+
+/* WHATSAPP ICON */
+
+.floating {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  transition: .3s;
+ }
+ 
+ .fab-icon {
+  margin-top: 16px;
+ }
+
+ .floating:hover{
+   width: 65px;
+   height: 65px;
+ }
 
 /*Fade in da página*/
 
