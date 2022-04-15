@@ -87,7 +87,7 @@ body {
   width: 50%;
   margin: auto;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -154,7 +154,7 @@ body {
 }
 
 @media all and (max-width: 700px) {
-  .cards-flex{
+  .cards-flex {
     flex-direction: column;
   }
 }
