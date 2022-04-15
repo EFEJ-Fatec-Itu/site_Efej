@@ -22,18 +22,18 @@ function generate() {
     text = "Nome: " + custName
 
     if (custCompany != "") {
-        text += ". Empresa: " + custCompany
+        text += ".%0aEmpresa: " + custCompany
     }
 
-    text += ". Assunto: " + custService
-    text += ". Contato: " + custPhone
+    text += ".%0aAssunto: " + custService
+    text += ".%0aContato: " + custPhone
 
     if (custEmail != "") {
-        text += ". E-mail: " + custEmail
+        text += ".%0aE-mail: " + custEmail
     }
 
     if (message != "") {
-        text += ". Mensagem: " + message
+        text += ".%0aMensagem: " + message
     }
 
     whatsappLink += text
