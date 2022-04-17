@@ -163,6 +163,21 @@ body {
   margin: auto;
 }
 
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+#custom-btn {
+  background-color: #313131;
+  color: white;
+  border: none;
+}
+
+#custom-btn:hover {
+ background-color: rgb(64, 64, 64);
+}
+
 /* PARCEIROS */
 
 .parceiros-flex {
