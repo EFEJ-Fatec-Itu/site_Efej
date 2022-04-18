@@ -236,7 +236,7 @@ body {
 /* SEÇÃO SOBRE */
 
 .page-section{
-  
+  transition: .3s;
   color: rgb(255, 255, 255);
 }
 .timeline {
